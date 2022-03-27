@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: aventirNext;
+    src: url(./../assets/fonts/AvenirNextLTPro-Regular.otf);
+  }
+
+
+
+nav.top_menu{
+    height: 106px;
+   display: flex;
+}
+
+nav.top_menu > div {
+    flex: 1;
+}
+
+.top_menu_left{
+    display: flex;
+    align-items: center;
+}
+.top_menu_logo{
+    width: 111px;
+    height: 49px;
+    object-fit: contain;
+    image-rendering: crisp-edges;
+  margin-left: 118px;
+}
+.right_menu_left {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.right_menu_left > ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
+.right_menu_left > ul > li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 91px;
+    height: 35px;
+    
+}
+.main_header{
+    padding-left: 40px;
+}
+.right_menu_left > ul> li > a{
+    text-decoration: none;
+    color: #161e30;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.31px;
+}
+.top_menu_contact_me_button{
+    width: 108px;
+    height: 42px;
+    padding: 11px;
+    object-fit: contain;
+    border-radius: 4px;
+    border: solid 1px #304eca;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.31px;
+    text-align: center;
+    color: #304eca;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+header.main_header{
+    display: flex;
+    height: 873.7px;
+
+}
+header.main_header > div{
+    flex:1;
+}
+.left_header{
+    text-align: left;
+    box-sizing: border-box;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+.left_header > h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 85px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: 2.8px;
+    color: #161e30;
+    
+}
+.left_header > h1 > span{
+    color: #304eca;
+}
+
+.left_header > h3 > img{
+    vertical-align: middle;
+    width: 100px;
+    height: 28px;
+    object-fit: contain;
+}
+.left_header > p{
+    opacity: 0.9;
+  font-family: aventirNext;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: normal;
+  color: #161e30;
+  margin-top: 42px;
+}
+.left_header > h3{
+    color:#161e30;
+    font-family: aventirNext;
+    font-size: 25px;
+    margin-top: 56px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.12;
+  letter-spacing: normal;
+  color: #161e30;
+
+}
+.left_header > ul{
+    margin-top: 102px;
+}
+.left_header > ul >li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 15px;
+    padding: 6px;
+}
+
+.right_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*About*/
+.about{
+    padding: 40px;
+}
+.heading_about{
+    height: 96px;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.13;
+    letter-spacing: normal;
+    color: #161e30;
+}
+.heading_about > span:nth-child(1){
+    font-size: 80px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #304eca;
+}
+.heading_about > span:nth-child(2){
+    opacity: 0.7;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: normal;
+    color: #161e30;
+    vertical-align: middle;
+}
+.about > p{
+    margin: 14px 0 19px;
+    opacity: 0.9;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 35px;
+    letter-spacing: normal;
+    color: #161e30;
+}
+.about > h4{
+    margin:  66px 0 10px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.2;
+    letter-spacing: normal;
+    color: #161e30
+}
+
+.about_hobbies{
+    display: flex;
+    padding-left: 20px;
+}
+.about_hobbies > div:nth-child(2){
+    margin-left: 66px;
+}
+.about_hobbies ul li{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #161e30;
+}
+.design_tools {
+    padding: 40px;
+}
+.design_tools > h1{
+    font-family: 'Playfair Display', serif;
+  font-size: 45px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.13;
+  letter-spacing: normal;
+  color: #161e30;
+}
+.design_tools > ul{
+  margin-top: 36px;
+}
+.design_tools > ul > li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center; 
+    min-width: 100px;
+    margin-left: 16px;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    object-fit: contain;
+}
+.design_tools > ul > li > img{
+    
+    height: 39px;
+}
+.design_tools > ul > li >p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #161e30;
+    opacity: 0.8;
+  }
+  .mywork {
+      padding: 40px;
+  }
+  .mywork > h1{
+    font-family: 'Playfair Display', serif;
+  font-size: 45px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.13;
+  letter-spacing: normal;
+  color: #161e30;
+}
+
+.mywork > p{
+    margin: 14px 0 19px;
+    opacity: 0.9;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 35px;
+    letter-spacing: normal;
+    color: #161e30;
+}
+
+.mywork_collection{
+    display: flex;
+    flex-direction: column;
+}
+.row-2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.row-2 > div{
+    flex:1;
+    border-radius: 18px;
+  background-color: #fff;
+  max-width: 598px;
+  
+   padding: 20px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.row-2 {
+    margin-top: 36px;
+}
+.row-2 > div > img{
+     width: 100%;
+     object-fit: contain;
+}
+.work> p  {
+    margin: 0 0 7px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    color: #161e30;
+}
+.work > a{
+    margin: 0 5px 0 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #213cce;
+}
+
+.work-right{
+    margin-left: 30px;
+}
+
+.experience{
+     
+    padding: 40px;
+   
+}
+.experience > h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #161e30;
+    max-width: 713px;
+}
+
+.about_experience{
+    margin-top: 36px;
+}
+
+footer{
+    height: 300px;
+    border-top: 1px solid  #d9d9d9;
+    width: 90%;
+    display: flex;
+  align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+footer h3{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #161e30;
+}
+footer ul{
+    margin-top: 36px;
+}
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+
+   
+}
+footer ul li a img{
+    height: 20px;
+}
