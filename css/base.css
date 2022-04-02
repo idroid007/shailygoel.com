@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 @font-face {
     font-family: aventirNext;
@@ -27,7 +28,7 @@ nav.top_menu > div {
     height: 49px;
     object-fit: contain;
     image-rendering: crisp-edges;
-  margin-left: 118px;
+  margin-left: 40px;
 }
 .right_menu_left {
     display: flex;
@@ -48,7 +49,7 @@ nav.top_menu > div {
     
 }
 .main_header{
-    padding-left: 40px;
+    padding: 0 40px;
 }
 .right_menu_left > ul> li > a{
     text-decoration: none;
@@ -154,11 +155,14 @@ header.main_header > div{
     margin-left: 15px;
     padding: 6px;
 }
+.left_header > ul >li:nth-child(1){
+    margin-left: 0;
+}
 
 .right_header{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 }
 
 /*About*/
@@ -257,6 +261,7 @@ header.main_header > div{
 .design_tools > ul > li {
     display: inline-block;
     list-style-type: none;
+    border-radius: 5px;
     text-align: center; 
     min-width: 100px;
     margin-left: 16px;
@@ -264,6 +269,9 @@ header.main_header > div{
     padding: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     object-fit: contain;
+}
+.design_tools > ul > li:nth-child(1){
+    margin-left: 0;
 }
 .design_tools > ul > li > img{
     
@@ -361,16 +369,25 @@ header.main_header > div{
 }
 
 .experience{
-     
+     display: flex;
     padding: 40px;
    
 }
-.experience > h1{
+.experience > div:nth-child(1){
+    flex:1.25;
+}
+
+.experience > div:nth-child(2){
+    flex:0.75;
+    text-align: center;
+}
+.experience > div:nth-child(1)> h1{
     font-family: 'Playfair Display', serif;
     font-size: 45px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
+    margin-top: 70px;
     line-height: 1.33;
     letter-spacing: normal;
     color: #161e30;
@@ -412,6 +429,9 @@ footer ul li {
     margin-left: 30px;
 
    
+}
+footer ul li:nth-child(1){
+    margin-left: 0;
 }
 footer ul li a img{
     height: 20px;

@@ -15,6 +15,10 @@
     font-size: 35px;
    
 }
+.right_header{
+
+    justify-content: center;
+}
 .heading_about > span:nth-child(1){
     font-size: 30px;
  
@@ -32,6 +36,9 @@
     display: block;
     text-align: center;
 }
+.design_tools > ul > li:nth-child(odd){
+    margin-left: 0;
+}
 .top_menu_contact_me_button {
 white-space: nowrap;
 margin-left: -5px;
@@ -46,7 +53,15 @@ margin-left: -5px;
 width: 65px;
 }
 .right_header img{
-    height: 300px;
+    height: 400px;
+}
+.left_header > h1{
+    font-size: 45px;
+    white-space: nowrap;
+}
+.left_header > h3{
+    font-size: 16px;
+    white-space: nowrap;
 }
 footer{
     height: max-content;
@@ -55,7 +70,7 @@ footer{
 
 .row-2{
     flex-direction: column;
-    
+    align-items: center;
 }
 .about > h4{
     font-size: 22px;
@@ -64,7 +79,25 @@ footer{
     margin-left: 0px;
     margin-top: 30px;
 }
+.experience{
+    display: block;
+}
+.experience > div:nth-child(1)> h1{
+margin-top: 0;
+}
+.experience > div:nth-child(2){
+    display: none;
+}
 .top_menu_logo{
+    margin-left: 0;
+}
+footer ul li{
+    margin-left: 15px;
+}
+.about_hobbies {
+    flex-direction: column;
+}
+.about_hobbies > div:nth-child(2){
     margin-left: 0;
 }
   }
