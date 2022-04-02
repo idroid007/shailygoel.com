@@ -100,4 +100,7 @@ footer ul li{
 .about_hobbies > div:nth-child(2){
     margin-left: 0;
 }
+.container{
+    max-width: 100%;
+}
   }

@@ -14,7 +14,14 @@ nav.top_menu{
     height: 106px;
    display: flex;
 }
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
 
+section{
+    margin-top: 40px;
+}
 nav.top_menu > div {
     flex: 1;
 }
@@ -124,7 +131,7 @@ header.main_header > div{
 .left_header > p{
     opacity: 0.9;
   font-family: aventirNext;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -155,6 +162,9 @@ header.main_header > div{
     margin-left: 15px;
     padding: 6px;
 }
+.left_header > ul >li > a> img{
+    height: 25px;
+}
 .left_header > ul >li:nth-child(1){
     margin-left: 0;
 }
@@ -168,6 +178,7 @@ header.main_header > div{
 /*About*/
 .about{
     padding: 40px;
+    margin-top: 0;
 }
 .heading_about{
     height: 96px;
