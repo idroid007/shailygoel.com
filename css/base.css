@@ -13,6 +13,13 @@
 nav.top_menu{
     height: 106px;
    display: flex;
+   position: sticky;
+   top: 0;
+   background: white;
+   z-index: 9999;
+}
+nav.mobile{
+    display: none;
 }
 .container{
     max-width: 1300px;
@@ -20,7 +27,7 @@ nav.top_menu{
 }
 
 section{
-    margin-top: 40px;
+    margin-top: 180px;
 }
 nav.top_menu > div {
     flex: 1;
@@ -162,6 +169,7 @@ header.main_header > div{
     margin-left: 15px;
     padding: 6px;
 }
+
 .left_header > ul >li > a> img{
     height: 25px;
 }
@@ -178,7 +186,7 @@ header.main_header > div{
 /*About*/
 .about{
     padding: 40px;
-    margin-top: 0;
+    margin-top: 150px;
 }
 .heading_about{
     height: 96px;
@@ -346,7 +354,7 @@ header.main_header > div{
    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .row-2 {
-    margin-top: 36px;
+    margin-top: 46px;
 }
 .row-2 > div > img{
      width: 100%;
@@ -376,7 +384,7 @@ header.main_header > div{
 }
 
 .work-right{
-    margin-left: 30px;
+    margin-left: 46px;
 }
 
 .experience{
@@ -408,7 +416,9 @@ header.main_header > div{
 .about_experience{
     margin-top: 36px;
 }
-
+.mobile-items{
+    display: none;
+}
 footer{
     height: 300px;
     border-top: 1px solid  #d9d9d9;
